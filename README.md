@@ -54,7 +54,9 @@ h1 {letter-spacing: 6px}
       <br>
       similar stories and being able to chat with others is a great way for 
       <br>
-      people to communicate.
+      people to communicate. Many choose not to talk about their experience
+      <br>
+      so by making this website anonymous, it allows for people to be open.
     </p>   
     
     
@@ -87,10 +89,3 @@ h1 {letter-spacing: 6px}
 </body>
 
 </html>
-  
-
-
-
-
-
-
