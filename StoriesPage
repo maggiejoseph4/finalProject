@@ -65,11 +65,11 @@ body {font: 14px verdana;}
 <!--Navbar-->
   <div class="w3-padding-32">
     <div class="w3-bar w3-border">
-      <a href="#" class="w3-bar-item w3-button">Home</a>
-      <a href="#" class="w3-bar-item w3-button w3-light-grey">Stories</a>
-      <a href="#" class="w3-bar-item w3-button">Chat</a>
-      <a href="#" class="w3-bar-item w3-button">Help</a>
-      <a href="#" class="w3-bar-item w3-button">About Us</a>
+      <a href="maggiejoseph4.github.io/finalProject/HomePage" class="w3-bar-item w3-button">Home</a>
+      <a href="maggiejoseph4.github.io/finalProject/Storiesage" class="w3-bar-item w3-button w3-light-grey">Stories</a>
+      <a href="maggiejoseph4.github.io/finalProject/ChatPage" class="w3-bar-item w3-button">Chat</a>
+      <a href="maggiejoseph4.github.io/finalProject/HelpPage" class="w3-bar-item w3-button">Help</a>
+      <a href="maggiejoseph4.github.io/finalProject/AboutUsPage" class="w3-bar-item w3-button">About Us</a>
 <br>
 <hr>
 <!--List of stories -->
