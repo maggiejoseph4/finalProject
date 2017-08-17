@@ -10,7 +10,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <style>
-        body,h1 {font-family: "Raleway", Arial, sans-serif}
+        body,h1 {font-family: "Raleway", Arial, sans-serif;
+                background-image: url("https://marble.com/art/wp-content/uploads/img/CALACATTA%20BORGHINI%20005R%20GLOSSY%20DONE%20WEB.jpg")}
         h1 {letter-spacing: 6px;}
         body {font: 14px Arial;}
         .w3-row-padding img {margin-bottom: 12px}
@@ -41,11 +42,17 @@
             background-color: #555555;
             color: white;
         }
+        .border {
+        background:url(http://www.solidbackgrounds.com/images/2560x1440/2560x1440-white-solid-color-background.jpg);
+        background-repeat: no-repeat;
+        padding:35px;
+        background-origin: content-box;
+        }
         #content {text-align: left;}
         #submit {font-size: 20px;}
         #complete {font-size: 13px;}
-        
-        
+
+
         .w3-bar-item  {font-family: "Raleway";}
     </style>
 </head>
@@ -58,21 +65,23 @@
 
     <!-- Header -->
     <header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
-      <h1 class="w3-xlarge">Respect The Power</h1>
+      <h1 class="w3-xlarge"><b>Respect The Power</b></h1>
 
 
     <!--Navbar-->
       <div class="w3-padding-32">
-        
-          <a href="HomePage.html" class="w3-bar-item w3-button">Home</a>
-          <a href="StoriesPage.html" class="w3-bar-item w3-button w3-light-grey">Stories</a>
-          <a href="ChatPage.html" class="w3-bar-item w3-button">Chat</a>
-          <a href="HelpPage.html" class="w3-bar-item w3-button">Help</a>
-          <a href="AboutUsPage.html" class="w3-bar-item w3-button">About Us</a>
+
+          <a href="HomePage.html" class="w3-bar-item w3-button"><b>Home</b></a>
+          <a href="StoriesPage.html" class="w3-bar-item w3-button w3-light-grey"><b>Stories</b></a>
+          <a href="ChatPage.html" class="w3-bar-item w3-button"><b>Chat</b></a>
+          <a href="HelpPage.html" class="w3-bar-item w3-button"><b>Help</b></a>
+          <a href="AboutUsPage.html" class="w3-bar-item w3-button"><b>About Us</b></a>
     <br>
     <hr>
+          <div class="border">
     <!--List of stories -->
           <h2 class="title"> Stories </h2>
+          <hr>
           <h3 class="storyTitle"> ---Story title #1--- </h3>
           <div id="content"></div>
           <div id="moreContent">  </div>
@@ -92,8 +101,8 @@
       <!-- Submit stories section -->
       <div class="w3-container w3-padding-32" id="contact">
         <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="submit">Submit your story to our email!</h3>
-        <p> 
-          respectthepowernyc@gmail.com 
+        <p>
+          respectthepowernyc@gmail.com
         </p>
 
         </form>
@@ -101,7 +110,7 @@
 
 
 
-
+</div>
 
 
 
