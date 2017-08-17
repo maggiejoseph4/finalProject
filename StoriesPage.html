@@ -47,16 +47,10 @@
         background-repeat: no-repeat;
         padding:35px;
         background-origin: content-box;
-             max-width: 50%;
-    height: auto;
-    display: block;
-margin: auto;
         }
         #content {text-align: left;}
         #submit {font-size: 20px;}
         #complete {font-size: 13px;}
-
-
         .w3-bar-item  {font-family: "Raleway";}
     </style>
 </head>
@@ -82,7 +76,7 @@ margin: auto;
       <a href="AboutUsPage.html" class="w3-bar-item w3-button"><b>About Us</b></a>
   </div>
     <br>
-   
+
           <div class="border">
     <!--List of stories -->
           <h2 class="title"> Stories </h2>
@@ -90,19 +84,108 @@ margin: auto;
           <h3 class="storyTitle"> ---Story title #1--- </h3>
           <div id="content"></div>
           <div id="moreContent">  </div>
-          <button class= "buttonStyle" class="buttonStyle1" type="button" onclick ="document.getElementById('moreContent').innerHTML='Story content'">Read more</button>
+
+          <div id="myDiv1">
+
+           <button class= "buttonStyle"  input id="info1" class="buttonStyle1" type="button" onclick ="document.getElementById('moreContent').innerHTML='Story content'" onclick = hideButton()>Read more</button>
+          </div>
+        <script type="text/javascript">
+            (function hideButton(){
+            var button = document.getElementById("info1");
+                var myDiv = document.getElementById("myDiv1");
+                function toggle() {
+                    if (myDiv1.style.visibility === "hidden") {
+                        myDiv1.style.visibility = "visible";
+                    } else {
+                        myDiv1.style.visibility = "hidden";
+                    }
+                }
+
+            button.addEventListener("click", toggle, false);
+            })()
+        </script>
+
+
+
           <h3 class="storyTitle"> ---Story title #2--- </h3>
           <div id="content"></div>
           <div id="moremoreContent">  </div>
-          <button class= "buttonStyle" class="buttonStyle1"  type="button" onclick ="document.getElementById('moremoreContent').innerHTML='Story content'">Read more</button>
+
+          <div id="myDiv2">
+
+           <button class= "buttonStyle"  input id="info2" class="buttonStyle1" type="button" onclick ="document.getElementById('moremoreContent').innerHTML='Story content'" onclick = hideButton()>Read more</button>
+          </div>
+        <script type="text/javascript">
+            (function hideButton(){
+            var button = document.getElementById("info2");
+                var myDiv = document.getElementById("myDiv2");
+                function toggle() {
+                    if (myDiv2.style.visibility === "hidden") {
+                        myDiv2.style.visibility = "visible";
+                    } else {
+                        myDiv2.style.visibility = "hidden";
+                    }
+                }
+
+            button.addEventListener("click", toggle, false);
+            })()
+        </script>
+
+
+
           <h3 class="storyTitle"> ---Story title #3--- </h3>
           <div id="content"> </div>
           <div id="moremoremoreContent">  </div>
-          <button class= "buttonStyle" class="buttonStyle1" type="button" onclick ="document.getElementById('moremoremoreContent').innerHTML='Story content'">Read more</button>
+
+          <div id="myDiv3">
+
+           <button class= "buttonStyle"  input id="info3" class="buttonStyle1" type="button" onclick ="document.getElementById('moremoremoreContent').innerHTML='Story content'" onclick = hideButton()>Read more</button>
+          </div>
+        <script type="text/javascript">
+            (function hideButton(){
+            var button = document.getElementById("info3");
+                var myDiv = document.getElementById("myDiv3");
+                function toggle() {
+                    if (myDiv3.style.visibility === "hidden") {
+                        myDiv3.style.visibility = "visible";
+                    } else {
+                        myDiv3.style.visibility = "hidden";
+                    }
+                }
+
+            button.addEventListener("click", toggle, false);
+            })()
+        </script>
+
+
+
+
           <h3 class="storyTitle"> ---Story title #4--- </h3>
           <div id="content"> </div>
           <div id="moremoremoremoreContent">  </div>
-          <button class= "buttonStyle" class="buttonStyle1" type="button" onclick ="document.getElementById('moremoremoremoreContent').innerHTML='Story content'">Read more</button>
+
+
+
+          <div id="myDiv4">
+
+           <button class= "buttonStyle"  input id="info4" class="buttonStyle1" type="button" onclick ="document.getElementById('moremoremoremoreContent').innerHTML='Story content'" onclick = hideButton()>Read more</button>
+          </div>
+        <script type="text/javascript">
+            (function hideButton(){
+            var button = document.getElementById("info4");
+                var myDiv = document.getElementById("myDiv4");
+                function toggle() {
+                    if (myDiv4.style.visibility === "hidden") {
+                        myDiv4.style.visibility = "visible";
+                    } else {
+                        myDiv4.style.visibility = "hidden";
+                    }
+                }
+
+            button.addEventListener("click", toggle, false);
+            })()
+        </script>
+
       <!-- Submit stories section -->
       <div class="w3-container w3-padding-32" id="contact">
         <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" id="submit">Submit your story to our email!</h3>
