@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html>
-   <head>
-    
-    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMUAAAD/AAAA/wAAAPgAAAD/AAAA/wAAAE0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACfAAAA/wAAAP8AAADHAAAA/wAAAP8AAABNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeQAAAP8AAAD/AAAAmQAAAPYAAAD/AAAATQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFMAAAD/AAAA9QAAAHYAAACqAAAA/wAAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABJAAAA/wAAAP4AAAD/AAAA/wAAAP8AAAChAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAA1gAAAP8AAAD/AAAA3QAAAOcAAAD/AAAA+wAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkwAAAP8AAAD/AAAA/wAAAIkAAAC3AAAA/gAAAPgAAACdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARgAAAP0AAAD/AAAA/wAAAPMAAAAbAAAAWwAAAE8AAABpAAAA6wAAABkAAAAAAAAAAAAAAAAAAAAAAAAAEwAAAOQAAAD/AAAA/wAAAPsAAABWAAAAAAAAAAkAAACZAAAA9QAAAIwAAAAzAAAAAAAAAAAAAAAAAAAAAAAAAJgAAAD/AAAA/wAAANUAAABBAAAAAAAAABMAAADNAAAAtQAAANkAAAD6AAAAYQAAAAAAAAAAAAAAAAAAAAAAAABmAAAA/wAAAP8AAACnAAAASwAAAFkAAAAlAAAA6gAAAP8AAACoAAAA5QAAAHIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAMAAAAD/AAAA/wAAAP8AAAD/AAAAmgAAAJkAAAD+AAAA/wAAAHcAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmAAAA9gAAAP8AAADjAAAAlAAAAL8AAADmAAAApAAAAOYAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGEAAACZAAAAuAAAAKEAAAD0AAAA/wAAAJ4AAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAAAP8AAAD5AAAAnQAAALUAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAADDAAAArAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+A8AAPgPAAD4DwAA+A8AAPgPAADwBwAA8AcAAOADAADAgwAAwAMAAMADAADAAwAA4AcAAPAPAAD4HwAA+D8AAA==" rel="icon" type="image/x-icon">
-    <title> Respect the Power: Stories</title>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <style>
-        body,h1 {font-family: "Raleway", Arial, sans-serif;
-                background-image: url("https://marble.com/art/wp-content/uploads/img/CALACATTA%20BORGHINI%20005R%20GLOSSY%20DONE%20WEB.jpg")}
-        h1 {letter-spacing: 6px;}
-        body {font: 14px Arial;}
-        .w3-row-padding img {margin-bottom: 12px}
-        .title {font-family: "Raleway"; font-size: 30px; text-align: center;}
+ <head>
+  
+  <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMUAAAD/AAAA/wAAAPgAAAD/AAAA/wAAAE0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACfAAAA/wAAAP8AAADHAAAA/wAAAP8AAABNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeQAAAP8AAAD/AAAAmQAAAPYAAAD/AAAATQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFMAAAD/AAAA9QAAAHYAAACqAAAA/wAAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABJAAAA/wAAAP4AAAD/AAAA/wAAAP8AAAChAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAA1gAAAP8AAAD/AAAA3QAAAOcAAAD/AAAA+wAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkwAAAP8AAAD/AAAA/wAAAIkAAAC3AAAA/gAAAPgAAACdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARgAAAP0AAAD/AAAA/wAAAPMAAAAbAAAAWwAAAE8AAABpAAAA6wAAABkAAAAAAAAAAAAAAAAAAAAAAAAAEwAAAOQAAAD/AAAA/wAAAPsAAABWAAAAAAAAAAkAAACZAAAA9QAAAIwAAAAzAAAAAAAAAAAAAAAAAAAAAAAAAJgAAAD/AAAA/wAAANUAAABBAAAAAAAAABMAAADNAAAAtQAAANkAAAD6AAAAYQAAAAAAAAAAAAAAAAAAAAAAAABmAAAA/wAAAP8AAACnAAAASwAAAFkAAAAlAAAA6gAAAP8AAACoAAAA5QAAAHIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAMAAAAD/AAAA/wAAAP8AAAD/AAAAmgAAAJkAAAD+AAAA/wAAAHcAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmAAAA9gAAAP8AAADjAAAAlAAAAL8AAADmAAAApAAAAOYAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGEAAACZAAAAuAAAAKEAAAD0AAAA/wAAAJ4AAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAAAP8AAAD5AAAAnQAAALUAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAADDAAAArAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+A8AAPgPAAD4DwAA+A8AAPgPAADwBwAA8AcAAOADAADAgwAAwAMAAMADAADAAwAA4AcAAPAPAAD4HwAA+D8AAA==" rel="icon" type="image/x-icon">
+  
+      <title>Respect the Power: Home</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <style>
+          body,h1 {font-family: "Raleway", Arial, sans-serif;
+          background-image: url("https://marble.com/art/wp-content/uploads/img/CALACATTA%20BORGHINI%20005R%20GLOSSY%20DONE%20WEB.jpg")}
+          h1 {letter-spacing: 6px}
+          .w3-row-padding img {margin-bottom: 12px}
+          
+          .title {font-family: "Raleway"; font-size: 30px; text-align: center;}
         .stories {text-align: justify;}
         .storyTitle {text-align: center; font-size: 20px}
         .w3-xlarge {font-size: 200px;}
@@ -59,22 +57,35 @@
         #submit {font-size: 20px;}
         #complete {font-size: 13px;}
         .w3-bar-item  {font-family: "Raleway";}
- 
-          
-    </style>
-   </head>
-
+          .border {
+          background:url(http://www.solidbackgrounds.com/images/2560x1440/2560x1440-white-solid-color-background.jpg);
+    background-repeat: no-repeat;
+    padding: 35px;
+    background-origin: content-box;
+    max-width: 50%;
+    height: auto;
+    display: block;
+ margin: auto;
+ }
+ .text {text-align-center;
+ }
+         
+      </style>
+</head>
 <body>
+
+
 
     <!-- !PAGE CONTENT! -->
     <div class="w3-content" style="max-width:1500px">
 
-
     <!-- Header -->
     <header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
-       <h1 class="w3-xlarge"><b>Respect The Power</b></h1>
-      <p> The Power of the "NO"</p>
-       
+      <h1 class="w3-xlarge"><b>Respect The Power</b></h1>
+      <p> <b>The Power of the "NO" </b></p>
+
+
+ 
 
     <!--Navbar-->
          <div class="w3-padding-32">
@@ -111,7 +122,6 @@
                         myDiv1.style.visibility = "hidden";
                     }
                 }
-
             button.addEventListener("click", toggle, false);
             })()
         </script>
@@ -137,7 +147,6 @@
                         myDiv2.style.visibility = "hidden";
                     }
                 }
-
             button.addEventListener("click", toggle, false);
             })()
         </script>
@@ -163,7 +172,6 @@
                         myDiv3.style.visibility = "hidden";
                     }
                 }
-
             button.addEventListener("click", toggle, false);
             })()
         </script>
@@ -192,7 +200,6 @@
                         myDiv4.style.visibility = "hidden";
                     }
                 }
-
             button.addEventListener("click", toggle, false);
             })()
         </script>
