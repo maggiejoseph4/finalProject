@@ -16,14 +16,10 @@
   <title>Respect the Power</title>
 
   <style>
-
     body,h1 {font-family: "Raleway", Arial, sans-serif;
             background-image: url("https://marble.com/art/wp-content/uploads/img/CALACATTA%20BORGHINI%20005R%20GLOSSY%20DONE%20WEB.jpg")}
-
     h1 {letter-spacing: 6px}
-
     .w3-row-padding img {margin-bottom: 12px}
-
     .border {
       background:url(http://www.solidbackgrounds.com/images/2560x1440/2560x1440-white-solid-color-background.jpg);
       background-repeat: no-repeat;
@@ -34,10 +30,6 @@
       display: block;
       margin: auto;}
 
-    .img{
-  width: 100px;
-  height: 100px;
-}
 
 .spinEffect{
    transform: rotate(45deg);
@@ -45,37 +37,59 @@
    -ms-transform: rotate(45deg);
 }
 
+.size{
+   width: 100px;
+  height: 100px;}
+
 #scatter1 {
-  position: absolute;
   float: left;
-  top: 300px;
-  width: 25px;}
-          
-          #scatter2 {
-  position: absolute;
-  float: left;
-  top: 250px;
-  width: 30px;}
-          
-          #scatter3 {
-  position: absolute;
-  float: left;
-  top: 350px;
-  width: 20px;}
-          
-          #scatter4 {
-  position: absolute;
-  float: left;
-  top: 200px;
-  width: 50px;}
-          
-          #scatter5 {
-  position: absolute;
-  float: left;
-  top: 280px;
-  width: 10px;}
+  margin: 200px 100px 50px;
+}
 
+#scatter2 {
+  float: left;
+  margin: -280px 50px 60px;
+}
 
+#scatter3 {
+  float: left;
+  margin: -300px -160px 60px;
+}
+
+#scatter4 {
+  float: left;
+  margin: -30px -100px 60px;
+}
+
+#scatter5 {
+  float: left;
+  margin: 130px 90px 60px;
+}
+
+#scatter6 {
+  float: left;
+  margin: -150px -550px 60px;
+}
+
+#scatter7 {
+  float: right;
+  margin: -660px 550px 60px;
+}
+
+#scatter8 {
+  float: right;
+  margin: -570px 350px 60px;
+}
+
+#scatter9 {
+  float: right;
+  margin: -100px 300px 60px;
+}
+
+#scatter10 {
+  float: right;
+  margin: -100px 150px 60px;
+}
     </style>
 
   </head>
@@ -97,22 +111,29 @@
 
             <script type="text/javascript">
             $(function(){
-              $(".img").click(function(){
-                $(".img").toggleClass("spinEffect");
+              $(".size").click(function(){
+                $(".size").toggleClass("spinEffect");
               });
             });
             </script>
 
-<div class="img"><img src="no doesnt.png" alt="pic" id="scatter1"></div>
-<div class="img"><img src="no doesnt 2.png" alt="pic" id="scatter2"></div>
-<div class="img"><img src="wecandoit2.png" alt="pic" id="scatter3"></div>
-<div class="img"><img src="respected2.png" alt="pic" id="scatter4"></div>
-<div class="img"><img src="respectyo.png" alt="pic" id="scatter5"></div>
-<div class="img"><img src="nastywomannnn.png" alt="pic" id="scatter6"></div>
-<div class="img"><img src="womanwoman.png" alt="pic" id="scatter7"></div>
-<div class="img"><img src="button6.png" alt="pic" id="scatter8"></div>
-<div class="img"><img src="mybody.png" alt="pic" id="scatter9"></div>
-<div class="img"><img src="mariam.png" alt="pic" id="scatter10"></div>
-<div class="img"><img src="womanwomanwoman.png" alt="pic" id="scatter11"></div>
+<div><img src="no doesnt.png" alt="pic" id="scatter1" class="size"></div>
+<div><img src="no doesnt 2.png" alt="pic" id="scatter2" class="size"></div>
+<div><img src="wecandoit2.png" alt="pic" id="scatter3" class="size"></div>
+<div><img src="respected2.png" alt="pic" id="scatter4" class="size"></div>
+<div><img src="respectyo.png" alt="pic" id="scatter5" class="size"></div>
+<div><img src="nastywomannnn.png" alt="pic" id="scatter6" class="size"></div>
+<div><img src="womanwoman.png" alt="pic" id="scatter7" class="size"></div>
+<div><img src="button6.png" alt="pic" id="scatter8" class="size"></div>
+<div><img src="mybody.png" alt="pic" id="scatter9" class="size"></div>
+<div><img src="mariam.png" alt="pic" id="scatter10" class="size"></div>
+<div><img src="womanwomanwoman.png" alt="pic" id="scatter11" class="size"></div>
 
+
+
+
+
+
+</body>
 </html>
+
